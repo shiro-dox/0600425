@@ -1,0 +1,7 @@
+print("сколько рублей у него сейчас на карте?")
+f1 = open('data.txt', 'r', encoding="utf-8")
+text1 = f1.read()
+print(text1)
+f1.close()
+name1=input("сколько он заработает через месяц?")
+print(int(name1) + int(text1))
