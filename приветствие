@@ -1,0 +1,7 @@
+f1 = open('data.txt', 'r', encoding="utf-8")
+text1 = f1.read()
+f2 = open('data1.txt', 'r', encoding="utf-8")
+text2 = f2.read()
+print("Здравствуйте "+ text1 +" " +text2)
+f1.close()
+f2.close()
